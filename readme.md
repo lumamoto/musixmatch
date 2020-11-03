@@ -19,13 +19,15 @@ sudo pip3 install requests
 
 3. Enter your API key inside of lyrics_api.py
 
-4. Run lyrics.py
+### How To Use
 
-5. Select "MENU OPTION 1 - Call one of the API methods with parameters and see JSON"
+1. Run lyrics.py
 
-6. Select API Method 4: track.search
+2. Select "MENU OPTION 1 - Call one of the API methods with parameters and see JSON"
 
-7. Enter the following parameters:
+3. Select API Method 4: track.search
+
+4. Enter the following parameters:
 - To set genre to rap/hip hop:
     - 5: &f_music_genre_id=18
 - For songs released between January 1, 2000 to December 31, 2009 (Format is YYYYMMDD):
@@ -38,7 +40,7 @@ sudo pip3 install requests
 - To get another set of 100 songs:
     -  9: &page=2 (3, 4, 5, etc.)
 
-### Menu options
+### Menu Options
 
 1. Call one of the API methods with parameters and see JSON data
 2. EXAMPLE: Search for the lyrics of a song
