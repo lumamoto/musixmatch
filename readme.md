@@ -19,7 +19,7 @@ Use python to interact with the Musixmatch API for song lyrics
 sudo pip3 install requests
 ```
 
-3. Enter you API key inside of lyrics_api.py
+3. Enter your API key inside of lyrics_api.py
 
 4. Run lyrics.py
 
@@ -28,16 +28,26 @@ sudo pip3 install requests
 6. Select API Method 4: track.search
 
 7. Enter the following parameters:
-To set rap/hip hop genre:
+
+To set genre to rap/hip hop:
     - 5: &f_music_genre_id=18
+    
 For songs released between January 1, 2000 to December 31, 2009 (Format is YYYYMMDD):
+
     - 11: &f_track_release_group_first_release_date_min=20000101
+    
     - 12: &f_track_release_group_first_release_date_max=20091231
+    
 For songs in English:
+
     - 6: &f_lyrics_language=en
+    
 To get 100 results at a time:
+
     - 10: &page_size=100
+    
 To get another set of 100 songs:
+
     -  9: &page=2 (3, 4, 5, etc.)
 
 ### Menu options
