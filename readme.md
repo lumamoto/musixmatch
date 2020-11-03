@@ -1,7 +1,5 @@
 # Musixmatch Python API Tutorial for Developers
 
-![Musixmatch](https://about.musixmatch.com/images/share-image.png)
-
 Use python to interact with the Musixmatch API for song lyrics
 
 ### Prerequisites
@@ -54,5 +52,3 @@ sudo pip3 install requests
 ## Authors
 
 * **Ian Annase**
-
-![Musixmatch](https://images-na.ssl-images-amazon.com/images/I/81NUdjKJ5RL.png)
